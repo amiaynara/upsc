@@ -23,7 +23,7 @@ const App = () => {
       <Router>
         <MainLayout>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/upsc" element={<Home />} />
             <Route path="/current-affairs" element={<CurrentAffairs />} />
             <Route path="/daily-affairs/:date" element={<DailyAffairs />} />
           </Routes>

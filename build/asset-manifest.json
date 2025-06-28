@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/upsc/current-affairs/static/css/main.3b6420f5.css",
-    "main.js": "/upsc/current-affairs/static/js/main.c5bf1eae.js",
-    "static/js/453.382658c5.chunk.js": "/upsc/current-affairs/static/js/453.382658c5.chunk.js",
-    "index.html": "/upsc/current-affairs/index.html",
-    "main.3b6420f5.css.map": "/upsc/current-affairs/static/css/main.3b6420f5.css.map",
-    "main.c5bf1eae.js.map": "/upsc/current-affairs/static/js/main.c5bf1eae.js.map",
-    "453.382658c5.chunk.js.map": "/upsc/current-affairs/static/js/453.382658c5.chunk.js.map"
+    "main.css": "/upsc/static/css/main.3b6420f5.css",
+    "main.js": "/upsc/static/js/main.6f9d0589.js",
+    "static/js/453.382658c5.chunk.js": "/upsc/static/js/453.382658c5.chunk.js",
+    "index.html": "/upsc/index.html",
+    "main.3b6420f5.css.map": "/upsc/static/css/main.3b6420f5.css.map",
+    "main.6f9d0589.js.map": "/upsc/static/js/main.6f9d0589.js.map",
+    "453.382658c5.chunk.js.map": "/upsc/static/js/453.382658c5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b6420f5.css",
-    "static/js/main.c5bf1eae.js"
+    "static/js/main.6f9d0589.js"
   ]
 }
