@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+/* Ant Design overrides for minimal design */
+.ant-card {
+  border-radius: 8px;
+}
+
+.ant-btn {
+  border-radius: 6px;
+}
+
+.ant-select {
+  border-radius: 6px;
+}
+
+.ant-menu-item {
+  border-radius: 6px;
+}
+
+/* Mobile responsive improvements */
+@media (max-width: 768px) {
+  /* Reduce padding and margins on mobile */
+  .ant-card {
+    margin-bottom: 1rem;
+  }
+  
+  .ant-card-body {
+    padding: 1rem !important;
+  }
+  
+  /* Improve button sizing on mobile */
+  .ant-btn {
+    height: auto;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+  
+  /* Better spacing for mobile */
+  .ant-space {
+    gap: 0.5rem !important;
+  }
+  
+  /* Improve calendar on mobile */
+  .ant-picker-calendar {
+    font-size: 0.9rem;
+  }
+  
+  .ant-picker-calendar .ant-picker-calendar-date {
+    padding: 0.25rem;
+  }
+  
+  /* Better list items on mobile */
+  .ant-list-item {
+    padding: 0.5rem !important;
+  }
+  
+  /* Improve tags on mobile */
+  .ant-tag {
+    font-size: 0.8rem;
+    padding: 0.2rem 0.5rem;
+  }
+  
+  /* Better typography on mobile */
+  .ant-typography h1 {
+    font-size: 1.5rem !important;
+  }
+  
+  .ant-typography h2 {
+    font-size: 1.3rem !important;
+  }
+  
+  .ant-typography h3 {
+    font-size: 1.1rem !important;
+  }
+  
+  .ant-typography h4 {
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Further reduce sizes for very small screens */
+  .ant-card-body {
+    padding: 0.75rem !important;
+  }
+  
+  .ant-btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
+  }
+  
+  .ant-typography h1 {
+    font-size: 1.3rem !important;
+  }
+  
+  .ant-typography h2 {
+    font-size: 1.1rem !important;
+  }
+  
+  .ant-typography h3 {
+    font-size: 1rem !important;
+  }
+  
+  .ant-typography h4 {
+    font-size: 0.9rem !important;
+  }
+  
+  /* Improve calendar for very small screens */
+  .ant-picker-calendar .ant-picker-calendar-date {
+    padding: 0.2rem;
+    font-size: 0.8rem;
+  }
+}
+
+/* Touch-friendly improvements */
+@media (hover: none) and (pointer: coarse) {
+  /* Increase touch targets */
+  .ant-btn {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  .ant-card {
+    cursor: pointer;
+  }
+  
+  .ant-list-item {
+    min-height: 44px;
+  }
+  
+  /* Better spacing for touch devices */
+  .ant-space {
+    gap: 0.75rem !important;
+  }
+}
+
+/* Landscape orientation improvements */
+@media (orientation: landscape) and (max-height: 500px) {
+  .ant-layout-header {
+    padding: 0.25rem 1rem !important;
+  }
+  
+  .ant-layout-content {
+    padding: 0.5rem !important;
+  }
+  
+  .ant-card-body {
+    padding: 0.5rem !important;
+  }
+}
+
+/* High DPI display improvements */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .ant-card {
+    border-width: 0.5px;
+  }
+  
+  .ant-btn {
+    border-width: 0.5px;
+  }
+}
