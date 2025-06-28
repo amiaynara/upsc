@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/upsc/current-affairs/static/css/main.3b6420f5.css",
+    "main.js": "/upsc/current-affairs/static/js/main.c5bf1eae.js",
+    "static/js/453.382658c5.chunk.js": "/upsc/current-affairs/static/js/453.382658c5.chunk.js",
+    "index.html": "/upsc/current-affairs/index.html",
+    "main.3b6420f5.css.map": "/upsc/current-affairs/static/css/main.3b6420f5.css.map",
+    "main.c5bf1eae.js.map": "/upsc/current-affairs/static/js/main.c5bf1eae.js.map",
+    "453.382658c5.chunk.js.map": "/upsc/current-affairs/static/js/453.382658c5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b6420f5.css",
+    "static/js/main.c5bf1eae.js"
+  ]
+}
