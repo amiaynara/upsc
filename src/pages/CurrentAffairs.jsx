@@ -33,11 +33,14 @@ const CurrentAffairs = () => {
     }
   };
 
-  const handleDateSelect = (date) => {
+  const handleDateSelect = (date, info) => {
     setSelectedDate(date);
-    // Navigate to daily affairs page with selected date
-    navigate(`/daily-affairs/${date.format('YYYY-MM-DD')}`);
+    if (info.source === 'date') {
+      // Navigate to daily affairs page with selected date
+      navigate(`/daily-affairs/${date.format('YYYY-MM-DD')}`);
+    }
   };
+
 
   return (
     <div style={{ 
