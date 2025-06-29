@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Upcoming features
+- [x] Daily affairs
+- [ ] Note adding capability on a particular date (use `personal_notes/` path)
+- [ ] Syllabus
+- [ ] Display existing notes under this path: (`CA_notes/`)
+- [ ]  
+
 ## Available Scripts
 
 In the project directory, you can run:
